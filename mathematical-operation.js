@@ -16,4 +16,23 @@ var eggPriceMultiplication = eggPrice * eggQuantity
 var moneyAvailable = 100;
 var orangePrice = 5;
 var orangeQuantity = moneyAvailable / orangePrice;
-console.log(orangeQuantity);
+// console.log(orangeQuantity);
+
+// special edition
+var firstName = 0.1;
+var secondName = 1.2;
+var total = firstName + secondName;
+total = total.toFixed(1);
+// total = parseFloat(total);
+total = parseFloat(total);
+
+//  console.log(parseFloat(total.toFixed(1)));
+console.log(total);
+
+// modulas
+var mangoes = 57;
+var hungryPerson = 12;
+var dividing = mangoes / hungryPerson;
+// console.log(dividing);
+var remaining = mangoes % hungryPerson;
+// console.log(remaining);
